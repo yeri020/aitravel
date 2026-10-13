@@ -1,1 +1,85 @@
-<!DOCTYPE html><html style="height: 100%;"><body style="height: 100%; margin: 0;"><iframe src="https://copilotstudio.microsoft.com/environments/Default-9ef36566-f756-4f11-9c5f-307c10f409f9/bots/cre46_aicreativeagentteam_2peY6V/webchat?__version__=2&enableFileAttachment=false&cliAgent=true" frameborder="0" style="width: 100%; height: 100%; border: 0;"></iframe></body></html>
+<!DOCTYPE html>
+<html lang="ko" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <title>귀여운 AI 챗봇 🐾</title>
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            /* 부드러운 파스텔톤 그라데이션 배경 */
+            background: linear-gradient(135deg, #fff0f5 0%, #e6e6fa 100%);
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .chat-container {
+            width: 90%;
+            max-width: 450px;
+            height: 85%;
+            max-height: 720px;
+            background: #ffffff;
+            border-radius: 28px;
+            /* 몽글몽글한 핑크빛 그림자 효과 */
+            box-shadow: 0 12px 30px rgba(255, 182, 193, 0.4);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            border: 3px solid #ffc0cb;
+        }
+        .chat-header {
+            background: #fff5f8;
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px dashed #ffb6c1;
+        }
+        .chat-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #db7093;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        /* 귀여운 상단 창 버튼 (맥 스타일 포인트) */
+        .chat-dots {
+            display: flex;
+            gap: 6px;
+        }
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        .dot-pink { background-color: #ffb6c1; }
+        .dot-yellow { background-color: #ffe4b5; }
+        .dot-mint { background-color: #b0e0e6; }
+        
+        iframe {
+            width: 100%;
+            flex: 1;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <!-- 귀여운 상단 타이틀 바 -->
+        <div class="chat-header">
+            <div class="chat-title">
+                <span>✨</span> AI 크리에이티브 친구 <span>🐾</span>
+            </div>
+            <div class="chat-dots">
+                <div class="dot dot-pink"></div>
+                <div class="dot dot-yellow"></div>
+                <div class="dot dot-mint"></div>
+            </div>
+        </div>
+        <!-- 챗봇 본문 iframe -->
+        <iframe src="https://copilotstudio.microsoft.com/environments/Default-9ef36566-f756-4f11-9c5f-307c10f409f9/bots/cre46_aicreativeagentteam_2peY6V/webchat?__version__=2&enableFileAttachment=false&cliAgent=true" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
